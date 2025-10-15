@@ -1,0 +1,41 @@
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+workflow2.py
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Testing
+/coverage/
+
+# Build
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+/node_modules/
+/public/bundles/
+
+# Production
+/dist/
