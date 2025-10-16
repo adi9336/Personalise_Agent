@@ -16,7 +16,7 @@ A smart AI assistant with memory and web search capabilities, built with LangGra
 - **Framework**: [LangGraph](https://langchain-ai.github.io/langgraph/)
 - **UI**: [Streamlit](https://streamlit.io/)
 - **LLM**: OpenAI GPT-4
-- **Vector Store**: [SuperMemory](https://github.com/yourusername/supermemory) (custom implementation)
+- **Vector Store**: [SuperMemory](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://supermemory.ai/&ved=2ahUKEwjh1KfQ2qiQAxXCSmwGHdGCKmwQFnoECB0QAQ&sqi=2&usg=AOvVaw2bVeuTJ9gGnaoyxJnbctSy) (custom implementation)
 - **Web Search**: Custom Tavily client
 
 ## Installation 🚀
