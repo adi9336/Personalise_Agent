@@ -1,9 +1,10 @@
 # Core Dependencies
 fastapi>=0.95.0,<0.100.0
-uvicorn>=0.22.0,<0.24.0
+uvicorn[standard]>=0.22.0,<0.24.0
 python-multipart>=0.0.6,<1.0.0
 python-dotenv>=1.0.0,<2.0.0
 pydantic>=1.10.0,<2.0.0
+fastapi-cors>=0.1.0
 
 # LangChain Ecosystem
 langchain>=0.0.200,<0.1.0
