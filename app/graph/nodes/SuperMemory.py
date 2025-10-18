@@ -1,4 +1,4 @@
-from utils.Supermemory_client import supermemory_client
+from graph.utils.Supermemory_client import supermemory_client
 import os
 # 
 def memory_search(state):

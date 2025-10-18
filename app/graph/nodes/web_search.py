@@ -1,4 +1,4 @@
-from utils.tavily_client import tavily_client
+from graph.utils.tavily_client import tavily_client
 import os
 
 

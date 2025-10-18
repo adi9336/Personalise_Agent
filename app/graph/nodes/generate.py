@@ -1,5 +1,7 @@
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
+from dotenv import load_dotenv
+load_dotenv()
 from typing import Dict, Any
 import os
 
@@ -43,14 +45,11 @@ def generate(state: Dict[str, Any]) -> Dict[str, Any]:
             temperature=0.7
         )
         
-        # Create the chain
-        chain = prompt | llm
+        # Format the prompt with context and query
+        formatted_prompt = prompt.format(context=context, query=query)
         
         # Generate the response
-        response = chain.invoke({
-            "context": context,
-            "query": query
-        })
+        response = llm.invoke(formatted_prompt)
         
         # Update the state with the generated response
         state["generation"] = response.content
