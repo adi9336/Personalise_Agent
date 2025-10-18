@@ -13,7 +13,7 @@ langchain-openai>=0.0.8,<0.1.0
 # AI/ML
 openai>=1.10.0,<2.0.0
 tavily-python>=0.7.0,<1.0.0
-supermemory>=0.1.0,<1.0.0
+supermemory>=3.4.0
 
 # Web Interface
 streamlit>=1.30.0,<2.0.0
