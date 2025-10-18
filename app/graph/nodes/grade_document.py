@@ -1,7 +1,7 @@
 from typing import Any, Dict
 
-from chains.SuperMemory_retrieval_grader import retrieval_grader
-from state import GraphState
+from graph.chains.SuperMemory_retrieval_grader import retrieval_grader
+from graph.state import GraphState
 
 
 def grade_documents(state: GraphState) -> Dict[str, Any]:

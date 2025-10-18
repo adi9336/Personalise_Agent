@@ -1,5 +1,5 @@
 import os
-from tavily import TavilyClient
+from tavily  import TavilyClient
 from dotenv import load_dotenv
 load_dotenv()
 

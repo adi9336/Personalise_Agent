@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 # Use relative import for GraphState
-from state import GraphState
+from graph.state import GraphState
 
 load_dotenv()
 
